@@ -30,7 +30,7 @@ $(".owl-next").on("click", function(){
   $progressbar.css("width", Math.round(100 * currentCard / totalCard) + "%");
 });
 $(".owl-prev").on("click", function(){
-  if (currentCard <=1){ return; }
+  if (currentCard <=0){ return; }
   currentCard--;
   $progressbar.css("width", Math.round(100 * currentCard / totalCard) + "%");
 });
