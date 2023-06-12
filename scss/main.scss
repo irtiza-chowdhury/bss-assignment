@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+// config files
+@import "./config/mixin";
+@import "./config/variable";
+@import "./config/navTab";
+
+// pages
+@import "./pages/home";
+@import "./pages/detail";
+
+// common css for titles
+h1 {
+  font-size: 56px;
+  line-height: 72px;
+
+  @media (max-width: 991.98px) {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  @media (max-width: 767.98px) {
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 60px;
+  @media (max-width: 991.98px) {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  @media (max-width: 767.98px) {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 48px;
+
+  @media (max-width: 767.98px) {
+    font-size: 26px;
+    line-height: 40px;
+  }
+}
+
+h4 {
+  font-size: 26px;
+  line-height: 40px;
+
+  @media (max-width: 767.98px) {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 30px;
+  @media (max-width: 991.98px) {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  @media (max-width: 767.98px) {
+    line-height: 22px;
+  }
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 26px;
+
+  @media (max-width: 767.98px) {
+    font-size: 16px;
+  line-height: 22px;
+  }
+}
+
+// special fonts
+.special-font {
+  font-size: 75px;
+  font-weight: 500;
+  line-height: 80px;
+}
+
+// button style
+.button {
+  font-size: 16px;
+  padding: 12px 20px;
+  min-width: 200px;
+  font-weight: 600;
+  border: 0.2px solid $gray;
+  border-radius: 35px;
+  transition: all 0.4s ease-in-out;
+
+  @media (max-width:991.98px){
+    padding: 10px 18px;
+    min-width: 160px;
+  }
+  @media (max-width:767.98px){
+    padding: 8px 16px;
+    min-width: 120px;
+  }
+
+  &-primary {
+    background: $white;
+    color: $deepBlue;
+
+    &:hover {
+      background-color: $deepBlue;
+      color: $white;
+    }
+  }
+  &-bgNone {
+    background: none;
+    color: $white;
+
+    &:hover {
+      background-color: $white;
+      color: $deepBlue;
+    }
+  }
+
+  &-secondary {
+    background: $deepBlue;
+    color: $white;
+
+    &:hover {
+      background-color: $white;
+      color: $deepBlue;
+    }
+  }
+}
+
+// link style
+.link-button {
+  padding-top: 30px;
+  color: $black;
+  font-weight: 700 !important;
+  transition: all 0.4s ease-in-out;
+
+  &:hover {
+    color: $lightBlue;
+  }
+}
+
+// paragraph
+.primary-paragraph {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.small-paragraph {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+}

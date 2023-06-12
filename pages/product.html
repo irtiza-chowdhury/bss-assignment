@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+
+    <!-- open sans font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font-awesome-kit -->
+    <script
+      src="https://kit.fontawesome.com/3a8a85fbc3.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="../assets/bootstrap_css/bootstrap.min.css" />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+   
+    <!-- navBar sections -->
+    <section class="navBar">
+      <div class="navBar__logo">
+        <div class="navBar__logo-image">
+          <img
+            class="img-fluid"
+            src="../assets/images/home/navBar.png"
+            alt="logo"
+          />
+        </div>
+        <h6 class="navBar__logo-title">your logo</h6>
+      </div>
+
+      <div class="navBar__options">
+        <button class="navBar__options-logIn button-bgNone">Login</button>
+        <div class="navBar__options-image">
+          <img
+            class="img-fluid"
+            src="../assets/images/home/language-icon.png"
+            alt="language icon"
+          />
+        </div>
+        <span class="navBar__options-icon"
+          ><i class="fa-solid fa-bars"></i
+        ></span>
+      </div>
+    </section>
+
+    <!-- banner sections starts -->
+    <section class="banner">
+      <div class="banner-background">
+        <img src="../assets/images/product/hero.jpg" alt="banner-background" />
+      </div>
+
+      <div class="banner__navigation small-paragraph pt-3">
+        <span class="root-navigation">Home > </span>
+        <span class="active-navigation">Our stories</span>
+      </div>
+
+      <div class="banner__contents mt-5 ps-2">
+        <div class="banner__navigation small-paragraph">
+          <span class="root-navigation">31 may 2023</span>
+          <span class="root-navigation px-2">|</span>
+          <span class="active-navigation">Clinical trials</span>
+        </div>
+
+        <h2 class="banner__contents-title py-4">
+          The future of diversity in clinical trial
+        </h2>
+
+        <div class="banner__contents-buttons">
+          <button class="button button-primary fw-bold">Read more</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- innovation stories section starts-->
+    <section class="innovations">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-5 col-xxl-7  align-self-lg-center">
+            <h6 class="innovations__title fw-bold">Patients</h6>
+            <p class="small-paragraph fw-medium">June 02, 2023</p>
+            <h4 class="innovations__text pt-2 fw-normal">
+              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
+              neque dolorum nihil nam cupiditate beatae!"
+            </h4>
+            <p class="primary-paragraph py-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
+              commodi consequuntur doloribus minima provident maiores!
+            </p>
+            <button class="button button-secondary innovations__button">
+              Learn more
+            </button>
+          </div>
+          <div class="col-12 col-md-7 col-xxl-5 ps-0 ps-md-2 pt-5 pt-md-0">
+            <div class="innovations__image--product">
+              <img
+                class="img-fluid"
+                src="../assets/images/product/innovation.jpg"
+                alt="innovations"
+              />
+              <div class="innovations__image-player">
+                <img
+                  class="img-fluid"
+                  src="../assets/images/product/player.png"
+                  alt="video player"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 mt-5">
+            <div class="innovations__image">
+              <img
+                class="img-fluid"
+                src="../assets/images/product/innovations-2.jpg"
+                alt="innovations"
+              />
+            </div>
+            <h6 class="innovations__title pt-3 fw-bold">
+              Research and Development
+            </h6>
+            <p class="small-paragraph fw-medium">June 02, 2023</p>
+            <h4 class="innovations__text fw-normal py-2">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </h4>
+            <a class="primary-paragraph link-button" href="#"
+              >Read the story
+              <span class="ps-2"
+                ><i class="fa-solid fa-arrow-right-long"></i></span
+            ></a>
+          </div>
+          <div class="col-12 col-md-6 mt-5">
+            <div class="innovations__image">
+              <img
+                class="img-fluid"
+                src="../assets/images/product/innovation-3.jpg"
+                alt="innovations"
+              />
+            </div>
+            <h6 class="innovations__title pt-3 fw-bold">Patients</h6>
+            <p class="small-paragraph fw-medium">June 02, 2023</p>
+            <h4 class="innovations__text fw-normal py-2">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </h4>
+            <a class="primary-paragraph link-button" href="#"
+              >Read the story
+              <span class="ps-2"
+                ><i class="fa-solid fa-arrow-right-long"></i></span
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- prductsDetail section starts -->
+    <section class="productsDetail">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link small-paragraph productsDetail__title"
+            id="profile-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#profile-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="profile-tab-pane"
+            aria-selected="false"
+          >
+            All
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active small-paragraph productsDetail__title"
+            id="home-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#home-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="home-tab-pane"
+            aria-selected="true"
+          >
+            Patients
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link small-paragraph productsDetail__title"
+            id="contact-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#contact-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="contact-tab-pane"
+            aria-selected="false"
+          >
+            Science
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link small-paragraph productsDetail__title"
+            id="research-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#research-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="research-tab-pane"
+            aria-selected="false"
+          >
+            Research and Development
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link small-paragraph productsDetail__title"
+            id="partnership-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#partnership-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="partnership-tab-pane"
+            aria-selected="false"
+          >
+            Partnership
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link small-paragraph productsDetail__title"
+            id="culture-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#culture-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="culture-tab-pane"
+            aria-selected="false"
+          >
+            Culture
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link small-paragraph productsDetail__title"
+            id="society-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#society-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="society-tab-pane"
+            aria-selected="false"
+          >
+            society
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content mt-4" id="myTabContent">
+        <div
+          class="tab-pane fade"
+          id="profile-tab-pane"
+          role="tabpanel"
+          aria-labelledby="profile-tab"
+          tabindex="0"
+        >
+        <p class="primary-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          alias doloremque tenetur distinctio omnis corporis obcaecati
+          deleniti dolore voluptatibus sint odit nemo molestias maiores velit
+          quasi quam vitae totam, sequi mollitia tempore cupiditate! Ad
+          nesciunt at perferendis laborum atque perspiciatis, voluptas quo
+          illo? Quaerat et, ullam aut aliquid saepe error.
+        </p>
+        <p class="primary-paragraph mt-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          alias doloremque tenetur distinctio omnis corporis obcaecati
+          deleniti dolore voluptatibus sint odit nemo molestias maiores velit
+          quasi quam vitae totam, sequi mollitia tempore cupiditate! Ad
+          nesciunt at perferendis laborum atque perspiciatis, voluptas quo
+          illo? Quaerat et, ullam aut aliquid saepe error.
+        </p>
+        </div>
+        <div
+          class="tab-pane fade show active"
+          id="home-tab-pane"
+          role="tabpanel"
+          aria-labelledby="home-tab"
+          tabindex="0"
+        >
+          <div class="productsDetail__contents">
+            
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12 col-md-4 productsDetail__contents-item">
+                  <div class="productsDetail__contents-item-image">
+                    <img
+                      class="img-fluid"
+                      src="../assets/images/product/patients-1.jpg"
+                      alt="patients-1"
+                    />
+                  </div>
+                  <div class="productsDetail__contents-item-info">
+                    <h6 class="productsDetail__contents-item-info-title">
+                      Patients
+                    </h6>
+                    <p class="small-paragraph">June 1, 2023</p>
+                    <h4
+                      class="productsDetail__contents-item-info-subTitle py-2 fw-normal"
+                    >
+                      Working to get more people with lung cancer closer
+                    </h4>
+                    <a
+                      class="primary-paragraph link-button"
+                      href="../pages/detail.html"
+                      >Read the story
+                      <span class="ps-2"
+                        ><i class="fa-solid fa-arrow-right-long"></i></span
+                    ></a>
+                  </div>
+                </div>
+                <div
+                  class="col-12 col-md-4 mt-5 mt-md-0 productsDetail__contents-item"
+                >
+                  <div class="productsDetail__contents-item-image">
+                    <img
+                      class="img-fluid"
+                      src="../assets/images/product/patients-2.jpg"
+                      alt="patients-2"
+                    />
+                  </div>
+                  <div class="productsDetail__contents-item-info">
+                    <h6 class="productsDetail__contents-item-info-title">
+                      Patients
+                    </h6>
+                    <p class="small-paragraph">May 11, 2023</p>
+                    <h4
+                      class="productsDetail__contents-item-info-subTitle py-2 fw-normal"
+                    >
+                      The long and ardous journey to endometriosis
+                    </h4>
+                    <a
+                      class="primary-paragraph link-button"
+                      href="../pages/detail.html"
+                      >Read the story
+                      <span class="ps-2"
+                        ><i class="fa-solid fa-arrow-right-long"></i></span
+                    ></a>
+                  </div>
+                </div>
+                <div
+                  class="col-12 col-md-4 mt-5 mt-md-0 productsDetail__contents-item"
+                >
+                  <div class="productsDetail__contents-item-image">
+                    <img
+                      class="img-fluid"
+                      src="../assets/images/product/patients-3.jpg"
+                      alt="patients-3"
+                    />
+                  </div>
+                  <div class="productsDetail__contents-item-info">
+                    <h6 class="productsDetail__contents-item-info-title">
+                      Patients
+                    </h6>
+                    <p class="small-paragraph">May 15, 2023</p>
+                    <h4
+                      class="productsDetail__contents-item-info-subTitle py-2 fw-normal"
+                    >
+                      'Ofcourse I forget. But that's okay, that's who I am'
+                    </h4>
+                    <a
+                      class="primary-paragraph link-button"
+                      href="../pages/detail.html"
+                      >Read the story
+                      <span class="ps-2"
+                        ><i class="fa-solid fa-arrow-right-long"></i></span
+                    ></a>
+                  </div>
+                </div>
+                <div class="row mt-4 align-items-baseline">
+                  <div class="col-12 col-md-6 productsDetail__contents-item">
+                    <div class="row mt-4 align-items-center">
+                      <div class="col-12 col-sm-7 col-md-12 col-lg-7">
+                        <div class="productsDetail__contents-item-image">
+                          <img
+                            class="img-fluid"
+                            src="../assets/images/product/patients-4.jpg"
+                            alt="patients-4"
+                          />
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-sm-5 col-md-12 col-lg-5">
+                        <div class="productsDetail__contents-item-info">
+                          <h6 class="productsDetail__contents-item-info-title">
+                            Patients
+                          </h6>
+                          <p class="small-paragraph">April 11, 2023</p>
+                          <h4
+                            class="productsDetail__contents-item-info-subTitle py-2 fw-normal"
+                          >
+                            Giving more women with cancer an oppurtunity for
+                          </h4>
+                          <a
+                            class="primary-paragraph link-button"
+                            href="../pages/detail.html"
+                            >Read the story
+                            <span class="ps-2"
+                              ><i
+                                class="fa-solid fa-arrow-right-long"
+                              ></i></span
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 mt-4 mt-md-0 productsDetail__contents-item">
+                    <div class="row mt-4 align-items-center">
+                      <div class="col-12 col-sm-7 col-md-12 col-lg-7">
+                        <div class="productsDetail__contents-item-image">
+                          <img
+                            class="img-fluid"
+                            src="../assets/images/product/dt-teaser-01@2x.jpg"
+                            alt="patients-5"
+                          />
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-sm-5 col-md-12 col-lg-5">
+                        <div class="productsDetail__contents-item-info">
+                          <h6 class="productsDetail__contents-item-info-title">
+                            Patients
+                          </h6>
+                          <p class="small-paragraph">March 11, 2023</p>
+                          <h4
+                            class="productsDetail__contents-item-info-subTitle py-2 fw-normal"
+                          >
+                            A new era of healthcare in Africa
+                          </h4>
+                          <a
+                            class="primary-paragraph link-button"
+                            href="../pages/detail.html"
+                            >Read the story
+                            <span class="ps-2"
+                              ><i
+                                class="fa-solid fa-arrow-right-long"
+                              ></i></span
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="contact-tab-pane"
+          role="tabpanel"
+          aria-labelledby="contact-tab"
+          tabindex="0"
+        >
+        <p class="primary-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          alias doloremque tenetur distinctio omnis corporis obcaecati
+          deleniti dolore voluptatibus sint odit nemo molestias maiores velit
+          quasi quam vitae totam, sequi mollitia tempore cupiditate! Ad
+          nesciunt at perferendis laborum atque perspiciatis, voluptas quo
+          illo? Quaerat et, ullam aut aliquid saepe error.
+        </p>
+        <p class="primary-paragraph mt-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          alias doloremque tenetur distinctio omnis corporis obcaecati
+          deleniti dolore voluptatibus sint odit nemo molestias maiores velit
+          quasi quam vitae totam, sequi mollitia tempore cupiditate! Ad
+          nesciunt at perferendis laborum atque perspiciatis, voluptas quo
+          illo? Quaerat et, ullam aut aliquid saepe error.
+        </p>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="research-tab-pane"
+          role="tabpanel"
+          aria-labelledby="research-tab"
+          tabindex="0"
+        >
+        <p class="primary-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          alias doloremque tenetur distinctio omnis corporis obcaecati
+          deleniti dolore voluptatibus sint odit nemo molestias maiores velit
+          quasi quam vitae totam, sequi mollitia tempore cupiditate! Ad
+          nesciunt at perferendis laborum atque perspiciatis, voluptas quo
+          illo? Quaerat et, ullam aut aliquid saepe error.
+        </p>
+        <p class="primary-paragraph mt-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          alias doloremque tenetur distinctio omnis corporis obcaecati
+          deleniti dolore voluptatibus sint odit nemo molestias maiores velit
+          quasi quam vitae totam, sequi mollitia tempore cupiditate! Ad
+          nesciunt at perferendis laborum atque perspiciatis, voluptas quo
+          illo? Quaerat et, ullam aut aliquid saepe error.
+        </p>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="partnership-tab-pane"
+          role="tabpanel"
+          aria-labelledby="partnership-tab"
+          tabindex="0"
+        >
+        <p class="primary-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          alias doloremque tenetur distinctio omnis corporis obcaecati
+          deleniti dolore voluptatibus sint odit nemo molestias maiores velit
+          quasi quam vitae totam, sequi mollitia tempore cupiditate! Ad
+          nesciunt at perferendis laborum atque perspiciatis, voluptas quo
+          illo? Quaerat et, ullam aut aliquid saepe error.
+        </p>
+        <p class="primary-paragraph mt-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          alias doloremque tenetur distinctio omnis corporis obcaecati
+          deleniti dolore voluptatibus sint odit nemo molestias maiores velit
+          quasi quam vitae totam, sequi mollitia tempore cupiditate! Ad
+          nesciunt at perferendis laborum atque perspiciatis, voluptas quo
+          illo? Quaerat et, ullam aut aliquid saepe error.
+        </p>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="culture-tab-pane"
+          role="tabpanel"
+          aria-labelledby="culture-tab"
+          tabindex="0"
+        >
+        <p class="primary-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          alias doloremque tenetur distinctio omnis corporis obcaecati
+          deleniti dolore voluptatibus sint odit nemo molestias maiores velit
+          quasi quam vitae totam, sequi mollitia tempore cupiditate! Ad
+          nesciunt at perferendis laborum atque perspiciatis, voluptas quo
+          illo? Quaerat et, ullam aut aliquid saepe error.
+        </p>
+        <p class="primary-paragraph mt-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          alias doloremque tenetur distinctio omnis corporis obcaecati
+          deleniti dolore voluptatibus sint odit nemo molestias maiores velit
+          quasi quam vitae totam, sequi mollitia tempore cupiditate! Ad
+          nesciunt at perferendis laborum atque perspiciatis, voluptas quo
+          illo? Quaerat et, ullam aut aliquid saepe error.
+        </p>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="society-tab-pane"
+          role="tabpanel"
+          aria-labelledby="society-tab"
+          tabindex="0"
+        >
+        <p class="primary-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          alias doloremque tenetur distinctio omnis corporis obcaecati
+          deleniti dolore voluptatibus sint odit nemo molestias maiores velit
+          quasi quam vitae totam, sequi mollitia tempore cupiditate! Ad
+          nesciunt at perferendis laborum atque perspiciatis, voluptas quo
+          illo? Quaerat et, ullam aut aliquid saepe error.
+        </p>
+        <p class="primary-paragraph mt-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          alias doloremque tenetur distinctio omnis corporis obcaecati
+          deleniti dolore voluptatibus sint odit nemo molestias maiores velit
+          quasi quam vitae totam, sequi mollitia tempore cupiditate! Ad
+          nesciunt at perferendis laborum atque perspiciatis, voluptas quo
+          illo? Quaerat et, ullam aut aliquid saepe error.
+        </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- stories sectiopns starts  -->
+    <section class="stories">
+      <h3 class="text-md-center">You might also like</h3>
+      <div class="container-fluid pt-3">
+        <div class="row">
+          <div class="col-12 col-md-4 stories__item">
+            <img
+              class="img-fluid"
+              src="../assets/images/home/stories-1.jpg"
+              alt="stories"
+            />
+            <h4 class="py-2 fw-normal text-capitalize">
+              Clinical trial transperancy, data sharing and disclosure
+            </h4>
+            <a class="primary-paragraph link-button" href="#"
+              >Read the story
+              <span class="ps-2"
+                ><i class="fa-solid fa-arrow-right-long"></i></span
+            ></a>
+          </div>
+          <div class="col-12 col-md-4 mt-5 mt-md-0 stories__item">
+            <img
+              class="img-fluid"
+              src="../assets/images/home/stories-2.jpg"
+              alt="stories"
+            />
+            <h4 class="py-2 fw-normal text-capitalize">
+              We continually invest in our manufacturing to strengthen
+            </h4>
+            <a class="primary-paragraph link-button" href="#"
+              >Read the story
+              <span class="ps-2"
+                ><i class="fa-solid fa-arrow-right-long"></i></span
+            ></a>
+          </div>
+          <div class="col-12 col-md-4 mt-5 mt-md-0 stories__item--fuels">
+            <img
+              class="img-fluid"
+              src="../assets/images/home/stories-3.jpg"
+              alt="stories"
+            />
+            <h4 class="py-2 fw-normal text-capitalize">
+              Our pipeline fuels the future
+            </h4>
+            <div class="fuels-link">
+              <a class="primary-paragraph link-button" href="#"
+                >Read the story
+                <span class="ps-2"
+                  ><i class="fa-solid fa-arrow-right-long"></i></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section starts-->
+    <section class="footer">
+      <div class="footer__arrow">
+        <a href="#top">
+          <img
+            class="w-full"
+            src="../assets/images/home/right-arrow-6421 copy 2@1x.png"
+            alt="arrow"
+          />
+        </a>
+      </div>
+
+      <div class="footer__contents">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <h6 class="footer__contents-title text-uppercase">your logo</h6>
+              <p class="small-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                cumque nulla iste neque animi excepturi!
+              </p>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <h6 class="footer__contents-title text-uppercase">products</h6>
+              <ul class="list-unstyled small-paragraph text-capitalize">
+                <li><a href="#">Product x</a></li>
+                <li class="py-2"><a href="#">Product y</a></li>
+                <li><a href="#">Product z</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <h6 class="footer__contents-title text-uppercase">About us</h6>
+              <ul class="list-unstyled small-paragraph text-capitalize">
+                <li><a href="#">About</a></li>
+                <li class="py-2"><a href="#">Careers</a></li>
+                <li><a href="#">Events</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__contact">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-md-10">
+              <ul class="list-unstyled small-paragraph d-flex gap-3">
+                <li>
+                  <span><i class="fa-regular fa-copyright"></i></span>
+                  <span class="footer__contact-year">2020</span> All rights are
+                  reserved
+                </li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+            <div class="mx-auto mt-3 mt-md-0 mx-md-none col-5 col-md-2">
+              <ul class="list-unstyled d-flex small-paragraph gap-2">
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- bootstrap js -->
+    <script src="../assets/bootstrap_js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

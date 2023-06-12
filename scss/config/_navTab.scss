@@ -1,0 +1,55 @@
+// bootstrap navLink styles
+.nav-tabs {
+  border: none !important;
+}
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border-color: $white !important;
+}
+.nav-link {
+  position: relative;
+  color: $deepBlue;
+  text-transform: capitalize;
+
+  &:hover,
+  &:focus-visible,
+  &::-moz-focus-outer {
+    text-transform: none !important;
+    text-decoration: none;
+    .nav-tabs {
+      --bs-nav-tabs-border-width: 0 !important;
+    }
+  }
+
+  &::after {
+    position: absolute;
+    width: 115%;
+    height: 1px;
+    content: "";
+    opacity: 0.3;
+    background: $gray;
+    left: -10%;
+    bottom: -10px;
+  }
+}
+
+.nav-link.active {
+  position: relative;
+  font-weight: 500;
+  border: none !important;
+
+  &::after {
+    position: absolute;
+    width: 115%;
+    height: 1px;
+    content: "";
+    opacity: 1;
+    background: $black;
+    left: -10%;
+    bottom: -11px;
+  }
+}
+
+
+
+

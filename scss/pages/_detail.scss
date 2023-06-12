@@ -1,0 +1,49 @@
+// banner styles for details
+.banner {
+  &__content {
+    &-details {
+      padding-bottom: 100px;
+    }
+  }
+}
+
+// patients section styles
+.patients{
+    padding: 0 10% 50px;
+
+    &__image{
+        position: relative;
+        top: -60px;
+    }
+    &__contents{
+        padding: 10px 5%;
+
+        &-awearness{
+            &-text{
+                padding: 0 0 0 20px;
+                position: relative;
+
+                @media (max-width:767.98px){
+                    padding: 0;
+                }
+
+                &::after{
+                    position: absolute;
+                    width: 1px;
+                    height: 100%;
+                    content: '';
+                    background: $gray;
+                    opacity: 0.6;
+                    left: 10px;
+                    top: 0;
+
+                    @media (max-width:767.98px){
+                        width: 0;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
