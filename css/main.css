@@ -210,7 +210,7 @@ html {
   height: 55px;
   background: white;
   border-radius: 55%;
-  box-shadow: -1px 1px 6px 1px #6d6e70;
+  box-shadow: -1px 2px 8px 1px #6d6e70;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -224,7 +224,7 @@ html {
 .intro__owl-carousel button.owl-next {
   transition: all 0.3s ease-in-out;
   color: #001844;
-  font-size: 33px !important;
+  font-size: 30px !important;
 }
 .intro__owl-carousel button.owl-prev:hover,
 .intro__owl-carousel button.owl-next:hover {

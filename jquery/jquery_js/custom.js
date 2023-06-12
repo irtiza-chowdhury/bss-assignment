@@ -7,6 +7,10 @@ $('#Carousel').owlCarousel({
     nav:true,
     slideBy:1,
     merge:true,
+    navText: [
+        '<i class="fa-solid fa-caret-left"></i>',
+        '<i class="fa-solid fa-caret-right"></i>'
+    ],
     responsive:{
         0:{
             items:2
