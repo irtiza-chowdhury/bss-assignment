@@ -147,16 +147,16 @@
   &__owl-carousel {
     position: relative;
 
-    &::after {
-      position: absolute;
-      bottom: -30px;
-      left: 0;
-      width: 90%;
-      height: 1px;
-      content: "";
-      background: $gray;
-      opacity: 0.3;
-    }
+    // &::after {
+    //   position: absolute;
+    //   bottom: -30px;
+    //   left: 0;
+    //   width: 90%;
+    //   height: 1px;
+    //   content: "";
+    //   background: $gray;
+    //   opacity: 0.3;
+    // }
 
     // owl carousel nav button styles
     .owl-nav {
@@ -171,6 +171,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      
 
       @media (max-width: 991.98px) {
         left: 45%;
@@ -188,6 +189,13 @@
         color: $gray !important;
       }
     }
+  }
+
+  // progressBar css
+  .progress{
+    height: 2px;
+    margin-top: 20px;
+    --bs-progress-bar-bg: #0a9fda;
   }
 }
 

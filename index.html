@@ -65,7 +65,8 @@
     <!-- banner sections starts -->
     <section class="banner">
       <div class="banner-background">
-        <img src="./assets/images/home/hero.jpg" alt="banner-background" />
+        <img class="d-none d-md-block" src="./assets/images/home/hero.jpg" alt="banner-background" />
+        <img class="d-block d-md-none" src="./assets/images/home/dt-bg@2x.jpg" alt="banner-background">
       </div>
 
       <div class="banner__navigation small-paragraph">
@@ -152,6 +153,9 @@
                 </p>
               </div>
             </div>
+            <div class="progress">
+              <div id="progressbar" class="progress-bar progress-bar-striped active" style="width: 5%"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -160,7 +164,7 @@
     <!-- innovation stories section starts-->
     <section class="innovations">
       <div class="container-fluid">
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col-12 col-md-5 col-lg-6 ps-0">
             <div class="innovations__image">
               <img
@@ -1924,5 +1928,8 @@
     <script src="./jquery/jquery_js/jquery-3.6.0.min.js"></script>
     <script src="./jquery/jquery_js/owl.carousel.js"></script>
     <script src="./jquery/jquery_js/custom.js"></script>
+    
+    <!-- jquery progress bar -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   </body>
 </html>

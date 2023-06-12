@@ -202,16 +202,6 @@ html {
 .intro__owl-carousel {
   position: relative;
 }
-.intro__owl-carousel::after {
-  position: absolute;
-  bottom: -30px;
-  left: 0;
-  width: 90%;
-  height: 1px;
-  content: "";
-  background: #6d6e70;
-  opacity: 0.3;
-}
 .intro__owl-carousel .owl-nav {
   position: absolute;
   left: 30%;
@@ -240,6 +230,11 @@ html {
 .intro__owl-carousel button.owl-next:hover {
   background: none !important;
   color: #6d6e70 !important;
+}
+.intro .progress {
+  height: 2px;
+  margin-top: 20px;
+  --bs-progress-bar-bg: #0a9fda;
 }
 
 .innovations {
